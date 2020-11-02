@@ -1,28 +1,80 @@
 <!DOCTYPE html>
 <html lang=pt-br>
     <title>wireless eXtreme</title>
-    <link href="reset.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <!-- folhas de estilo css -->
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- fim folas de estilo css -->
+
+    <!-- fonte título principal -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Permanent+Marker&family=Righteous&family=Rock+Salt&family=Sarabun&family=Sriracha&display=swap" rel="stylesheet">
+    <!-- fim fonte título principal -->
+
+    <!-- fonte menu e parágrafos -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&family=Sarabun&display=swap" rel="stylesheet">
+    <!-- fim fonte menu e parágrafos -->
+
+    <!-- fonte menu rodapé -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap" rel="stylesheet">
+    <!-- fim fonte menu rodapé -->
+
+    <!-- ícone da url .png -->
+        <link rel="sortcut icon" href="../img/favicon.png" type="image/png">;
+    <!-- fim ícone da url .png -->
+
+    <!-- ícone da url .ico -->
+        <link rel="sortcut icon" href="../img/favicon.ico" type="image/ico" />;
+        <!-- fim ícone url .ico -->
+
 
     <bory id="inicio">
+
+
+
+
+
+        <div id="divBusca">
+          <img src="../img/busca.png" alt="Buscar..."/>
+          <input type="text" id="txtBusca" placeholder="O que você procura?"/>
+          <button id="btnBusca">Buscar</button>
+        </div>
+
+
+
         <div class="corpo-alinhamento">
 
-            <div id="divBusca">
-              <img src="busca.png" alt="Buscar..."/>
-              <input type="text" id="txtBusca" placeholder="O que você procura?"/>
-              <button id="btnBusca">Buscar</button>
-            </div>
+
 
         <nav id="menu">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="artigos.html">Artigos</a></li>
-            <li><a href="dicionario.html">Dicionário</a></li>
-            <li><a href="links.html">Links</a></li>
-            <li><a href="#contatos">Contato</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/artigos.html">Artigos</a></li>
+            <li><a href="../pages/dicionario.html">Dicionário</a></li>
+            <li><a href="../pages/links.html">Links</a></li>
+            <li><a href="#direitos">Sobre</a></li>
         </ul>
         </nav>
-        <h1>O FUTURO É SEM FIO</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="titulo">
+            <h1>O FUTURO É SEM FIO</h1>
+        </div>
+
             <div class="paragrafos">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat orci eu lorem consequat elementum. Mauris vulputate, massa ut sodales elementum, odio velit volutpat arcu, eu vestibulum sapien lectus nec urna. Donec hendrerit quam quis diam condimentum condimentum. Vestibulum sed rutrum nulla, eget semper justo. Nam non eros sit amet neque pretium semper. Fusce sed augue nec ex consequat tincidunt et eu orci. Cras eget dapibus nunc. Pellentesque vitae tincidunt diam. Aenean eros odio, convallis id dui et, sollicitudin lobortis est. Quisque ante turpis, mattis sit amet tempor sit amet, volutpat a lacus. Mauris tempor fermentum vehicula. Nullam leo arcu, dapibus ut leo id, molestie tempor ligula. Nulla eget pellentesque mauris.
@@ -54,22 +106,50 @@
             </p>
             </div>
 
-        </div> <!--corpo alinhamento -->
 
-            <nav class="rodape">
 
-            <ul id="contatos">
-                <li>Contatos:</li>
-            </ul>
+        <!-- rodapé -->
+        <nav id="rodape">
 
+
+        <ul>
+            <li class="texto-rodape-menu">SOBRE</li>
+            <li class="texto-rodape-item"><a> > Projetos</a></li>
+            <li class="texto-rodape-item"><a> > Mapa do Site</a></li>
+            <li class="texto-rodape-item"><a> > Sobre</a></li>
+        </ul>
+
+
+        <ul>
+            <li class="texto-rodape-menu">RECURSOS</li>
+            <li class="texto-rodape-item"><a> > Ferramentas</a></li>
+            <li class="texto-rodape-item"><a> > Sugestões?</a></li>
+            <li class="texto-rodape-item"><a> > Ajuda</a></li>
+        </ul>
+
+
+        <ul>
+            <li class="texto-rodape-menu">SIGA-ME</li>
+            <li class="texto-rodape-item"><a href="https://linkedin.com/in/wartonbarros" target="_blank"> > Linkedin</a></li>
+            <li class="texto-rodape-item"><a href="https://github.com/wartonbarros" target="_blank"> > GitHub</a></li>
+        </ul>
+
+
+        </nav>
+        <!-- fim rodapé -->
+
+
+
+
+        <!-- copyright -->
+        <div id="direitos">
             <ul>
-                <li class="topo"><a href="#inicio">Topo</a></li>
+                <li class="copyright">&copy; 2021 WirelessExtreme.com</li>
             </ul>
+        </div>
+        <!-- copyright -->
 
-            </nav>
-
-
-
+    </div> <!--corpo alinhamento -->
 
     </bory>
 </html>

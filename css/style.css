@@ -1,0 +1,232 @@
+html {
+    /* background-color: #4f4f4f; */
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    opacity: 90%;
+}
+
+html a {
+    /* text-decoration: none; */
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    position: static;
+    padding: 10px;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Sarabun', sans-serif;
+    font-family: 'Sriracha', cursive;
+}
+
+.corpo-alinhamento {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1024px;
+    background-color: ;
+}
+
+div p {
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 30px;
+}
+
+
+p {
+    font-size: 1.2em;
+    color: white;
+    padding: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarabun', sans-serif;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 10px;
+
+}
+
+
+/**
+ * formatação do menu
+ */
+#menu {
+    /* background-color: #4f4f4f; */
+}
+
+ #menu ul {
+     padding:20px;
+     margin-left: 25%;
+     max-width: 1024px;
+     /* width: 100%; */
+     list-style:none;
+ }
+
+ /**
+  * deixando opções em linha horizontal com display: inline;
+  */
+#menu ul li { display: inline; }
+
+
+/**
+ * definindo visual do menu
+ */
+ #menu ul li a {
+     font-family: 'Permanent Marker', cursive;
+     font-family: 'Righteous', cursive;
+     font-family: 'Sarabun', sans-serif;
+     font-size: 1.5em;
+     padding: 10px 10px;
+     display: inline-block;
+     transition: background-color 0.3s , color 0.3s , border-bottom 0.3s;
+     transition-timing-function: ease-out;
+     background-color: transparent;
+
+     /* visual do link */
+     /* background-color:#EDEDED; */
+     color: white;
+     text-decoration: none;
+     border-bottom:3px solid #EDEDED;
+ }
+
+/**
+ * colocando efeitos do mouse
+ */
+ #menu ul li a:hover {
+     background-color: transparent;
+     color: #6D6D6D;
+     border-bottom:5px solid #EA0000;
+ }
+
+ #menu ul li a:active {
+     border-bottom:5px solid #EA0000;
+ }
+
+
+
+
+
+ #divBusca{
+  background-color: white;
+  /* border:solid 0px #101010; */
+  border-radius:10px;
+  width:300px;
+  height:32px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+#divBusca img {
+    height: 32px;
+    width: 32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  color: white;
+  background:#282828;
+}
+
+#divBusca img{
+  float:left;
+}
+
+
+
+
+
+
+
+
+/* estilização rodapé */
+
+#rodape {
+    background-color: #101010;
+    height: 200px;
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: sticky;
+}
+
+#rodape ul {
+    display: inline-block;
+    padding-left: 10%;
+    vertical-align: top;
+}
+
+#rodape a:visited {
+    color: white;
+}
+
+#rodape a:hover {
+    opacity: 50%;
+}
+
+.texto-rodape-menu {
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    text-shadow: 10px:
+}
+
+.texto-rodape-item {
+    font-size: 1.1em;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+#direitos {
+    width: 100%;
+}
+
+#direitos ul {
+    background-color: transparent;
+    margin-bottom: 0;
+    display: contents;
+}
+
+.copyright {
+    padding: 0px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+
+
+/* fim estilização rodapé */
